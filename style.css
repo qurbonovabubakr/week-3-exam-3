@@ -928,3 +928,51 @@ body {
     border-radius: 8px;
     display: inline-block;
 }
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.bottom-container {
+    width: 1200px;
+    margin: 80px auto 80px auto;
+    border-top: 1px solid #e2e4e9;
+    padding-top: 40px;
+}
+
+.bottom-table {
+    width: 100%;
+}
+
+.bottom-left {
+    width: 30%;
+}
+
+.bottom-right {
+    width: 70%;
+    text-align: right;
+}
+
+.logo-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.logo-text {
+    font-size: 20px;
+    color: #0b1a4a;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    color: #7a829a;
+}
+
+.footer-link {
+    color: #007bff;
+    text-decoration: underline;
+}
