@@ -69,3 +69,105 @@ body {
 .btn:hover {
     background-color: #0052cc;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    max-width: 550px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1a1e36;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.btn-primary {
+    background-color: #0066ff;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0052cc;
+}
+
+.phone-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.phone-icon-bg {
+    width: 45px;
+    height: 45px;
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-img {
+    width: 20px;
+    height: 20px;
+}
+
+.phone-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-text {
+    font-size: 11px;
+    color: #9ca3af;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.phone-number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a1e36;
+    text-decoration: none;
+}
+
+.hero-image-container {
+    max-width: 600px;
+}
+
+.hero-main-img {
+    width: 100%;
+    height: auto;
+}
